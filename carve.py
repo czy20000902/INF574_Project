@@ -51,7 +51,7 @@ def carving(voxel_surface, voxel_inside, support_base):
     min_x = min(support_base[:, 0])
     max_y = max(support_base[:, 1])
     min_y = min(support_base[:, 1])
-    barycenter = get_barycenter(voxel_surface + voxel_inside)
+    barycenter = get_barycenter(voxel_inside)
     print(barycenter)
     barycenter_x = barycenter[0]
     barycenter_y = barycenter[2]
