@@ -1,4 +1,5 @@
-# INF574_Project ***By Zhaoyang Chen and Ribal Teeny***
+# INF574_Project 
+***By Zhaoyang Chen and Ribal Teeny***
 ## General introduction
 An python implementation for the paper ```Make It Stand: Balancing Shapes for 3D Fabrication``` published in 2013.
 ## How it works
