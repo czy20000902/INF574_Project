@@ -17,7 +17,6 @@ def read_off_file(input):
     vertex_num, surface_num, other_num = content[1].split()
     vertex_num = int(vertex_num)
     surface_num = int(surface_num)
-    other_num = int(other_num)
     for i in range(2, vertex_num + 2):
         vertex.append(content[i].split())
 
@@ -39,4 +38,4 @@ def read_off_file(input):
 
 
 if __name__ == '__main__':
-    read_off_file('./data/star/bunny.off')
+    read_off_file('./data/star/star.off')
